@@ -1,0 +1,23 @@
+{
+  "name": "log10stories",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --harmony app.js",
+    "test": "mocha --harmony",
+    "prepublish": "npm run"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-route": "^3.2.0",
+    "monk": "^6.0.6"
+  },
+  "devDependencies": {
+    "supertest": "^3.1.0",
+    "mocha": "^5.2.0"
+  }
+}
